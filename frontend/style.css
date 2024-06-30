@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar .navbar-nav .nav-item a {
+    padding: 15px;
+}
+
+.nav-but {
+    padding: 10px;
+}
+
+.navbar-search {
+    padding: 10px;
+}
+
+/* a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+.bg-holder {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: #ffff;
+}
+
+.btn {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.btn i {
+    vertical-align: text-top;
+}
+
+.btn-outline-custom {
+    color: #31374a;
+    border-color: #ddd;
+}
+
+.btn-outline-custom:hover {
+    color: #31374a;
+    border-color: #eee;
+    background-color: #eee;
+}
+
+.divider-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #ffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #999;
+
+}
+
+.divider {
+    margin: 1rem 0;
+}
