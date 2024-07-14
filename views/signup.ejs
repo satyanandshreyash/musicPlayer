@@ -1,0 +1,63 @@
+<%- include("partials/header") -%>
+
+<div class="row vh-100 g-0">
+    <!-- left portion -->
+    <div class="col-lg-6 position-realtive d-none d-lg-block">
+        <div class="bg-holder" style="background-image:url(../img/newbg.jpg);"></div>
+    </div>
+    <!-- right portion -->
+    <div class="col-lg-6">
+        <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sm-0">
+            <div class="col col-sm-6 col-lg-7 col-xl-6">
+                <!-- logo -->
+                <a href="/" class="d-flex justify-content-center mb-4">
+                    <img src="../img/logo1nobg.png" alt="logo" width="60">
+                </a>
+                <div class="text-center mb-4">
+                    <h3 class="fw-bold">Sign Up</h3>
+                    <p class="text-secondary">Get access to your Musical Life</p>
+
+                </div>
+                <!-- social login -->
+                <button class="btn btn-lg btn-outline-secondary btn-outline-custom w-100 mb-3">
+                    <i class="bx bxl-google text-danger me-1 fs-6"></i>SignUp with Google
+                </button>
+                <button class="btn btn-lg btn-outline-secondary btn-outline-custom w-100 mb-3">
+                    <i class="bx bxl-facebook text-primary me-1 fs-6"></i>SignUp with Facebook
+                </button>
+                <div class="position-relative">
+                    <hr class="text-secondary divider">
+                    <div class="divider-content-center"> or</div>
+                </div>
+
+                <!-- form -->
+                <form action="/signup" method="post" style="margin-top:30px;">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bx bx-user"></i></span>
+                        <input type="text" class="form-control form-control-lg fs-6" name="username" placeholder="Username or email">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bx bx-lock-alt"></i></span>
+                        <input type="password" class="form-control form-control-lg fs-6" name="password" placeholder="Password">
+                    </div>
+                    <div class="input-group mb-3 d-flex justify-content-between">
+                        <div class="from-check">
+                            <input type="checkbox" class="form-check-input" id="formCheck">
+                            <label for="formCheck" class="form-check-label text-secondary">
+                                <small>Remeber Me</small>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100 mb-3">SignUp</button>
+                </form>
+                <div class="text-center">
+                    <small>Already have an account? <a href="/login" class="fw-bold">Log In</a></small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<%- include("partials/footer") -%>
