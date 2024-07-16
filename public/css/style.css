@@ -46,6 +46,11 @@ body {
     font-weight: 700;
 }
 
+.btn-google{
+    width: 100%;
+    text-align: center;
+}
+
 .btn i {
     vertical-align: text-top;
 }
@@ -60,6 +65,8 @@ body {
     border-color: #eee;
     background-color: #eee;
 }
+
+
 
 .divider-content-center {
     position: absolute;
